@@ -1,0 +1,25 @@
+{
+    "name": "joshralph93/query-to-builder",
+    "description": "Convert a raw SQL query to an Eloquent query builder",
+    "authors": [
+        {
+            "name": "Josh Ralph",
+            "email": "josh@joshralph.co.uk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JoshRalph\\QueryToBuilder\\": "src/",
+            "JoshRalph\\Tests\\": "tests/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^6.6",
+        "phpunit/phpunit": "^8.4",
+        "mockery/mockery": "^1.3",
+        "greenlion/php-sql-parser": "^4.3"
+    }
+}
